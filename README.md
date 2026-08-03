@@ -19,3 +19,21 @@ Unbedingt zu beachten:
 - Im stromlosen Zustand das NRF-Funkmodul ausbauen.
 - Die DTU mit einem USB-Kabel mit dem PC verbinden. Einen usb3-Port verwenden! Keinen Hub dazwischen und keinen usb2-Port!
 - den boot-Knopf unbedingt vor dem Anstecken des Kabels drücken und nach dem Anstecken loslassen! <img width="287" height="175" alt="image" src="https://github.com/user-attachments/assets/cc361f6c-5f84-46f9-82ca-50f4c4cd53d5" />
+
+Dann den webflasher starten: https://www.opendtu.solar/firmware/webinstall/
+
+Unbedingt "ESP32" auswählen und "INSTALL" drücken.
+
+<img width="527" height="485" alt="image" src="https://github.com/user-attachments/assets/47416fbf-8915-4309-9111-1cc2c22984f9" />
+
+"CP2102..." auswählen und "Verbinden"
+
+Dann "INSTALL OPENDTU..."
+
+<img width="332" height="170" alt="image" src="https://github.com/user-attachments/assets/374712fa-caad-43a3-9a83-49b9b15ce209" />
+
+Dann sollte die Neuinstallation beginnen mit "Erasing", dann "Installing".
+Bei 63% bleibt die Sanduhr kurz hängen und springt dann auf 100%. Nach "Warapping" erscheint die Erfolgsmeldung.
+
+
+
