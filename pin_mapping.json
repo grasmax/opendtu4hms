@@ -1,0 +1,34 @@
+[
+    {
+        "name": "OpenDTU HM/HMS/HMT Hybrid",
+        "nrf24": {
+            "miso": -1,
+            "mosi": -1,
+            "clk": -1,
+            "irq": -1,
+            "en": -1,
+            "cs": -1
+        },
+        "cmt": {
+            "clk": 12,
+            "cs": 27,
+            "fcs": 26,
+            "sdio": 14,
+            "gpio2": -1,
+            "gpio3": -1
+        },
+        "eth": {
+            "enabled": false,
+            "phy_addr": 0,
+            "power": -1,
+            "mdc": 23,
+            "mdio": 18,
+            "type": 0,
+            "clk_mode": 0
+        },
+        "led": {
+            "led0": -1,
+            "led1": -1
+        }
+    }
+]
