@@ -11,7 +11,7 @@ Im Gegenteil: mehrmals verlor die openDTU alle Einstellungen einschließlich fü
 
 Es mussten die Werkseinstellungen per erase/flash restauriert werden.
 Leider ist die Doku https://www.opendtu.solar/firmware/webinstall/ an diesem Punkt sehr unpräzise.
-Deshalb folgt ihr eine etwas verbesserte Anleitung, um eine kaputte DTU wieder in Betrieb zu nehmen.
+Deshalb folgt hier eine etwas verbesserte Anleitung, um eine kaputte DTU wieder in Betrieb zu nehmen.
 Bei dieser Gelegenheit wurde auch das überflüssige nrf-Funkmodul entfernt, das für die Kommunikation mit ausschließlich HMS-Wechselrichtern gar nicht gebraucht wird!
 <img width="403" height="265" alt="image" src="https://github.com/user-attachments/assets/bba614e4-5544-4882-9a0a-6da2830e6722" />
 
