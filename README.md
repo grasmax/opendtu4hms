@@ -1,7 +1,7 @@
 # opendtu4hms
 Reparatur der openDTU von selbstbau-pv.de für HMS-Wechselrichter
 
-August 2026 / Windows10
+August 2026 / 35W-Netzteil /FritzRepeater 600/ Fritzbox 5530 / Windows10-PC mit aktueller ESU-Version /HMS2000
 
 Seit 2024 betreibe ich eine openDTU von selbstbau-pv.de mit Hoymiles-HMS-Wechselrichtern.
 Die Funkverbindung zu den Wechselrichtern ist stabil. Aber die WLAN-Verbindung zur Fritzbox (7490 und 5530) ist sehr instabil.
@@ -34,6 +34,23 @@ Dann "INSTALL OPENDTU..."
 
 Dann sollte die Neuinstallation beginnen mit "Erasing", dann "Installing".
 Bei 63% bleibt die Sanduhr kurz hängen und springt dann auf 100%. Nach "Warapping" erscheint die Erfolgsmeldung.
+
+Um sich mit den HMS-Wechselrichtern verbinden zu können und das nrf-Modul abzuschalten, muss nun noch die korrigierte! pin-Datei (siehe Anlage) eingespielt werden:
+
+<img width="1191" height="525" alt="image" src="https://github.com/user-attachments/assets/1de63312-8cf9-4a31-9a94-167e8de89dd7" />
+
+Dann kann auch das Harwareprofil für hms ausgewählt werden:
+
+<img width="778" height="351" alt="image" src="https://github.com/user-attachments/assets/84f1600e-15bf-4fbb-ab74-6204210fd578" />
+
+Vor dem Neustart (Strom aus/ein) muss die Antenne wieder angeschraubt und es müssen alle Einstellungen vorgenommen werden:
+- neues DTU-Passwort
+- Netzwerk ssid und passwort
+- DTU Sendeleistung und -Intervall
+- MQTT und Broker-IP
+- alle Wechselrichter
+
+
 
 
 
