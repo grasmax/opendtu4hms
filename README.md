@@ -1,5 +1,5 @@
 # opendtu4hms
-Reparatur der openDTU von selbstbau-pv.de für HMS-Wechselrichter
+Reparatur der openDTU von selbstbau-pv.de für HMS-Wechselrichter unter Mitwirkung von google gemini
 
 August 2026 / 35W-Netzteil /FritzRepeater 600/ Fritzbox 5530 / Windows10-PC mit aktueller ESU-Version /HMS2000
 
